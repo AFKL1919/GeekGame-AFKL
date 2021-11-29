@@ -1,0 +1,11 @@
+version: "2.1"
+services:
+  pop_chain_epic:
+    volumes:
+      - ./log:/var/log/nginx
+      - ./html:/var/www/html
+      - ./run:/run/php
+    build: .
+    restart: always
+    ports:
+      - "80:80"
