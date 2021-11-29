@@ -1,0 +1,7 @@
+version: "3"
+services:
+  easypop:
+    build: .
+    restart: always
+    ports:
+      - "8090:80"

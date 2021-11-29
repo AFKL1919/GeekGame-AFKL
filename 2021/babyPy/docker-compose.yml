@@ -1,0 +1,7 @@
+version: "3"
+services:
+  babypy:
+    build: .
+    restart: always
+    ports:
+      - "8116:5000"

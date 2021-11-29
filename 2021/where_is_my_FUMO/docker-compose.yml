@@ -1,0 +1,7 @@
+version: "3"
+services:
+  fumo:
+    build: .
+    restart: always
+    ports:
+      - "8115:80"

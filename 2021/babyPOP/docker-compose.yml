@@ -1,0 +1,7 @@
+version: "3"
+services:
+  babypop:
+    build: .
+    restart: always
+    ports:
+      - "14033:80"
